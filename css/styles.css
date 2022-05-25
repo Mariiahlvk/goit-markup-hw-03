@@ -50,7 +50,7 @@ img {
 /* Header */
 
 .container {
-  width: 1170px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
 
@@ -120,6 +120,10 @@ img {
   color: var(--accent-color);
 }
 
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
 /* Contacts */
 
 .contacts {
@@ -142,10 +146,11 @@ img {
   background-color: var(--hero-footer-bg-color);
   text-align: center;
   padding: 200px 0;
-  margin-bottom: 94px;
 }
 
 .hero-title {
+  width: 696px;
+  margin: 0 auto;
   margin-bottom: 30px;
 
   color: var(--white-color);
@@ -169,12 +174,13 @@ img {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
-
-  /* display: block;
-  margin: 0 auto; */
 }
 
 /* Section */
+
+.section {
+  padding: 94px 0;
+}
 
 .section-title,
 .team-title {
@@ -188,9 +194,12 @@ img {
 
 /* Features */
 
+.benefits {
+  padding-bottom: 47px;
+}
+
 .features {
   display: flex;
-  margin-bottom: 94px;
 }
 
 .features .item + .item {
@@ -214,10 +223,13 @@ img {
 
 /* Work list */
 
+.workflow {
+  padding-top: 47px;
+}
+
 .work-list {
   display: flex;
   justify-content: center;
-  margin-bottom: 94px;
 }
 
 .work-list .item + .item {
@@ -312,15 +324,10 @@ img {
 
 /* Portfolio */
 
-.container.portfolio {
-  margin-bottom: 94px;
-}
-
 .button {
   display: flex;
   justify-content: center;
-  padding-top: 94px;
-  padding-bottom: 34px;
+  margin-bottom: 50px;
 }
 
 .button .item + .item {
@@ -363,7 +370,7 @@ img {
 }
 
 .portfolio-content {
-  padding: 20px;
+  padding: 20px 24px;
   border-bottom: 1px solid var(--portfolio-border-color);
   border-left: 1px solid var(--portfolio-border-color);
   border-right: 1px solid var(--portfolio-border-color);
